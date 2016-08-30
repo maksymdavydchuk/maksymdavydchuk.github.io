@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <style>
+        input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<form action="login.php" method="get" id="login-form">
+    <div><label for="name">Enter Name</label><input type="text" name="name" id="name"></div>
+    <div><label for="password">Enter Password</label><input type="text" name="password" id="password"></div>
+    <div><input type="submit"></div>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#login-form').submit(function (event) {
+            var formData = $(this).serialize();
+            $.get('login.php', formData, myFunc);
+            function myFunc(data) {
+                if (data) {
+                    console.log(data)
+                } else {
+                    console.log()
+                }
+            }
+            event.preventDefault();
+        })
+    })
+</script>
+</body>
+</html>

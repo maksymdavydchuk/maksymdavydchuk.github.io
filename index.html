@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Виктория Скачкова</title>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- StylePreloader -->
+  <style>
+    #page-preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      z-index: 100500;
+    }
+
+    #page-preloader .spinner {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: url('images/preloader.gif') no-repeat 50% 50%;
+      margin: -25px 0 0 -25px;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="page-preloader"><span class="spinner"></span></div>
+  
+  <!-- HTML-код модального окна -->
+  <div id="myModalBox" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Основное содержимое модального окна -->
+        <div class="modal-body">
+          <form class="form">
+            <div class="form-group">
+              <label for="exampleInputName2">Введите Ваше имя:</label>
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Максим">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail2">Ваш мобильный телефон:</label>
+              <input type="text" class="form-control" id="exampleInputEmail2" placeholder="+38 (066) 048 95 92">
+            </div>
+          </form>
+        </div>
+        <!-- Футер модального окна -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default siteOrder" data-dismiss="modal">Заказать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <header class="wow slideInDown" data-wow-duration="1.25s" data-wow-delay=".5s">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" id="menu">
+              <li><a href="#block1">Задачи и ТЗ</a></li>
+              <li><a href="#block2">Разработка</a></li>
+              <li><a href="#block3">Слияние</a></li>
+              <li><a href="#block4">Размещение</a></li>
+              <li><a href="#block5">Наполнение</a></li>
+              <li><a href="#block6">Поддержка</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <div class="wraper wow fadeIn" data-wow-duration="2.5s" data-wow-delay=".5s">
+      <div class="row hello">
+        <div class="col-lg-12">
+          <img src="images/bg.jpg" class="img-responsive imgcenter" alt="Responsive image">
+        </div>
+      </div>
+
+      <div class="row aboutme">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+          <h2><span class="element">Привет, меня зовут Виктория Скачкова</span></h2>
+          <p>...в настоящее время живу в Ровно, Украина. Я UI / UX дизайнер и Front-End Веб-разработчик с несколько летним стажем. Днем я работаю в большой компании, а ночью превращаюсь в веб-дизайнера. Я ответственная, довожу работу до конца, спокойная и жизнерадостная. Всегда нравится узнавать все новое. У меня есть прочный фундамент в CSS и HTML, очень хорошо знакома с JQuery и PHP. Я самоучка и постоянно учусь...<br><br>
+            <i class="fa fa-vk"></i>
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          </p>
+          <div class="row button">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <a class="btn btn-default myWork" href="#block7" role="button">Мои роботы</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6"><a class="btn btn-default feedback" href="#block8" role="button">Отзывы</a></div>
+          </div>
+          <div class="row order">
+            <div class="col-lg-12">
+              <button class="btn btn-default" type="submit" id="siteOrder">Заказать сайт</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wraper">
+      <div class="row content" id="block1">
+        <div class="col-lg-12">
+          <h3>Задачи и ТЗ на изготовление сайта</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+          <p><b>Самое главное</b> – четкая прозрачная концепция. <b>Мы с вами</b> вместе на этом этапе должны достичь появления в голове абсолютно идентичных картинок будущего сайта. Максимально точно и детально выражать свои пожелания, а я буду создавать конечний результат. В ходе этого этапа мы должны четко определеть ответы на следующие вопросы: 
+            <ul>
+              <li>На кого сайт рассчитан?</li>
+              <li>Какие задачи он будет решать?</li>
+              <li>Что вы хотите донести до посетителей?</li>
+              <li>Как будет работать сайт?</li>
+            </ul>
+            <p>После утвержденной концепции сайта приступаем к разработке технического задания, в котором прописываются все основные моменты. Определяется тип сайта, его стиль, функционал, структура, навигация. Крайне важно не упустить никакие моменты на этом этапе, так как по составленному ТЗ <b>я буду творить для вас.</b>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+          <img src="images/task.svg" class="img-responsive imgcenter">
+          </div>
+        </div>
+      </div>
+
+      <div class="wraper">
+        <div class="row content" id="block2">
+          <div class="col-lg-12">
+            <h3>Разработка дизайн-проекта и его утверждение</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="images/design.svg" class="img-responsive imgcenter" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+            <p><b>Важный этап</b>, который в дальнейшем будет определять, как будет работать сайт. Перед тем как утвердить дизайн-проект <b>Вам</b> следует абстрагироваться от личных вкусов и предпочтений и задать себе следующие вопросы: 
+              <ul>
+                <li>Соответствует дизайн вашему корпоративному стилю?</li>
+                <li>Не усложнит он дальнейшее продвижение?</li>
+                <li>Отвечает ли главной цели?</li>
+                <li>Выделяет дизайн ваш сайт от сайтов-конкурентов?</li>
+              </ul>
+              <p>При заказе создания сайта, как правило, предлагается на выбор две концепции дизайна. 
+                После вами одного варианта, <b>я начинаю роботу</b> по прорисовке отдельных страниц. Данный этап разработки веб-сайта занимает 2-3 недели. Если вы не претендуете на уникальный профессиональный дизайн-проект, можете выбрать любой шаблонный дизайн. Это существенно сократит затраты и сроки.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row content" id="block3">
+              <div class="col-lg-12">
+                <h3>Слияние системы управления сайтом и дизайна</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+                <p><b>На этом этапе</b> происходит обрабатывание графического макета. После этого сайт обретает функциональные возможности. Весь процесс предполагает проведение <b>нескольких операций:</b></p>
+                <p><b>Верстка</b> профессиональная адаптивная верстка позволит вашему сайту бесперебойно работать во всех web-браузерах и при любых разрешениях.</p>
+                <p><b>Система управления</b> поможет руководить сайтом без посторонней помощи, а также позволит решать задачи статистики, целевого воздействия на сегменты аудитории и видоизменять контент.</p>
+                <p><b>Интеграция системы управления и результатов верстки</b> после окончания предидущих робот, мы имеем так называемую «рыбу» сайта. Пустой веб-ресурс полностью готовый функционально. Прогнозировать длительность этого этапа невозможно ввиду существенных различий концепций и объема сайтов. Сроки могут составлять от недели до двух месяцев.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="images/work.svg" class="img-responsive imgcenter" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row content" id="block4">
+              <div class="col-lg-12">
+                <h3>Размещение сайта в глобальной сети</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="images/place.svg" class="img-responsive imgcenter" alt="">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+                <p><b>Ваш сайт впервые увидит свет!</b> Заказав создание сайта, рекомендуется заранее побеспокоиться о том, чтобы у него было свое имя и адрес, то есть о таких вещах, как домен и хостинг.</p>
+                <p><b>Домен</b> — имя вашего веб-ресурса. Желательно, чтобы в этом имени находило свое отражение название компании или продукта. Учтите, что необходимо обязательно проверять доменные имена на «занятость».</p>
+                <p><b>Хостинг</b> — непосредственное место размещения вашего веб-ресурса. То пространство в сети, которое предоставляется вашему сайту. Если вы не знаете, как получить домен и хостинг, <b>не волнуйтесь</b>, я помогу вам в выборе этих элементов <b>мои дорогие заказчики.</b></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row content" id="block5">
+              <div class="col-lg-12">
+                <h3>Наполнение сайта</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+                <p>Самый <b>интересный</b> и <b>волнительный этап</b> для заказчика. Наконец перед ним предстанет картина, которая долго снилась ночами – <b>наш собственный сайт.</b> Уже имеющиеся материалы <b>мы розместим</b> на чистых страницах сайта. Если же вы не имеете самих материалов, а лишь представление о них, я <b>помогу вам</b> воплотить ваши пожелания в лучшем виде. Сроки этого этапа зависят <b>от объема</b> контента. Создание интернет магазина требует больше времени ввиду наличия объемных каталогов и длинных описаний каждой позиции. Более упрощенный сайт заполнится быстрее.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="images/infoinsite.svg" class="img-responsive imgcenter" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row content" id="block6">
+              <div class="col-lg-12">
+                <h3>Поддержка сайта</h3>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <img src="images/support.svg" class="img-responsive imgcenter" alt="">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+                <p><b>Этот этап</b> может служить как отдельной услугой для работающих сайтов, так и одним из элементов в пакете «Разработка веб-сайта». Любой сайт необходимо поддерживать, наполнять, менять контент и следить за динамикой посещаемости. <b>Я с удовольствием</b> позабочусь о вашем web-ресурсе.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row sliderContent" id="block7">
+              <div class="col-lg-12">
+                <h3>Мои роботы</h3>
+              </div>
+              <div class="col-lg-6 col-md-6  wow slideInUp" data-wow-duration="1.25s" data-wow-offset="100">
+                <p>Примеры моих работ в области создания сайтов. В этом разделе представлены <b>лучшые</b> разработаные мной мной сайты. <b>Итог роботы таков:</b></p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-3"><p class="end"><i class="fa fa-coffee"></i> 512 Выпитых чашек кофе</p></div>
+                  <div class="col-lg-3 col-md-3"><p class="end"><i class="fa fa-user"></i> 18 Довольных клиентов</p></div>
+                  <div class="col-lg-3 col-md-3"><p class="end"><i class="fa fa-headphones"></i> 464 прослушаных песни</p></div>
+                  <div class="col-lg-3 col-md-3"><p class="end"><i class="fa fa-lock"></i> 35 законченых проектов</p></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 proba">
+                <div class="slider">
+                  <ul class="bxslider">
+                    <li><img src="images/slide1.jpg" alt=""></li>
+                    <li><img src="images/slide2.jpg" alt=""></li>
+                    <li><img src="images/slide3.jpg" alt=""></li>
+                    <li><img src="images/slide4.jpg" alt=""></li>
+                    <li><img src="images/slide5.jpg" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wraper wow fadeIn" data-wow-duration="1,25s" data-wow-delay=".5s">
+            <div class="row feedback" id="block8">
+              <div class="col-lg-12"><h3>Отзывы</h3></div>
+              <div class="col-lg-4 col-md-4 col-sm-4"><div class="feedWraper"><div class="feedImg feedImg1"></div><div class="feedText"><p>"Заказали сайт-визитку. Было сделано весьма качественно, сайт работает несколько месяцев, пока никаких сбоев и проблем не замечено."</p></div></div></div>
+              <div class="col-lg-4 col-md-4 col-sm-4"><div class="feedWraper"><div class="feedImg feedImg2"></div><div class="feedText"><p>"Заказал сайт на cms joomla. Вика сделала сайт достаточно быстро. Весь контент оптимизирован, что не может не радовать."</p></div></div></div>
+              <div class="col-lg-4 col-md-4 col-sm-4"><div class="feedWraper"><div class="feedImg feedImg3"></div><div class="feedText"><p>"Заказывала у Вики доработку сайта, в том числе и форму с несколькими фильтрами. Сделали очень качественно, что очень важно."</p></div></div></div>
+            </div>
+          </div>
+
+          <div class="wraper">
+            <div class="row footer">
+              <div class="col-lg-12">
+                <p>© Copyright 2015. Все права защищены</p>
+              </div>
+            </div>
+          </div>
+
+          <img src="images/Up.svg" alt="" class="scrollToTop">
+          <img src="images/siteOrder.svg" alt="" class="siteOrderFixed  animated pulse">
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>
+      </html>
+

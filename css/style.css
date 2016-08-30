@@ -1,0 +1,357 @@
+/*All Styles*/
+*:focus {
+	outline: none !important;
+}
+*::selection {
+	background-color: #ff3c6a;
+	color: #fff;
+}
+body {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 16px !important;
+	/*margin: 0;*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #52514f !important;
+	/*overflow: hidden;*/
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bad Script', Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.1;
+	color: #ff3c6a;
+	text-align: center;
+}
+b {
+	color: #ff3c6a;
+}
+/*Custom Styles*/
+.imgcenter{
+	margin: 0 auto 15px!important;
+}
+.imgcenter:first-child {
+	margin: 15px auto!important;
+}
+
+/*Navigation*/
+.navbar-default .navbar-nav>li>a {
+	text-align: center;
+	transition: all 1s ease;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+	background-color: #ff3c6a;
+	border-radius: 4px;
+}
+.navbar-default {
+	background-color: #fff;
+}
+.navbar-header button {
+	background-color: #fff;
+	border: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #52514f;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+	border: transparent;
+}
+
+
+/*Wraper*/
+.wraper {
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+/*Hello*/
+.hello {
+	padding-bottom: 20px;
+}
+.hello img {
+	margin-top: 20px!important;
+}
+
+/*Abotme*/
+.aboutme h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.aboutme p {
+	margin-right: 15px;
+	margin-left: 15px;
+	padding: 15px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	text-indent: 16px;
+	font-style: italic;
+	text-align: center;
+}
+.aboutme i {
+	font-size: 20px;
+	color: #e7e7e7;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+.aboutme i:hover {
+	color: #ff3c6a;
+}
+
+/*button*/
+.button, .order {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.button .btn, .order .btn{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border: none;
+	white-space: normal;
+}
+.button .btn-default{
+	font-size: 16px;
+	color: #52514f;
+	background-color: #fff;
+	border-color: #e7e7e7;
+	transition: all 1s ease;
+}
+.button .btn-default:hover {
+	width: 60%;
+	border: none;
+	color: #fff;
+	background-color: #ff3c6a;
+}
+.button .btn-default:active {
+	width: 60%;
+	border: none;
+	color: #fff;
+	background-color: #ff3c6a;
+}
+.button .btn:active {
+	box-shadow: none;
+}
+.order .btn {
+	width: 28%;
+}
+.order .btn-default {
+	padding: 12px;
+	border: 1px solid #ff3c6a;
+	transition: all 1s ease;
+	text-transform: uppercase;
+	color: #ff3c6a;
+	font-weight: bold;
+}
+.order .btn-default:hover {
+	color: #fff;
+	background-color: #ff3c6a;
+}
+.order .btn-default:active {
+	color: #fff;
+	background-color: #ff3c6a;
+	border: 1px solid #ff3c6a;
+}
+.order .btn:active {
+	box-shadow: none;
+}
+.btn-default.focus, .btn-default:focus {
+	background-color: #fff;
+}
+
+/*Content*/
+.content>div>*{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.content h3 {
+	margin-bottom: 30px;
+}
+.content p {
+	margin-bottom: 15px;
+	padding: 15px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	text-indent: 15px;
+	font-style: italic;
+	font-size: 15px;
+}
+.content ul {
+	font-size: 15px;
+	font-style: italic;
+	list-style: none;
+}
+.content img {
+	width: 200px;
+}
+
+/*Modal*/
+.modal-footer {
+	border-top: none;
+}
+.form-control {
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #52514f;	
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #ccc;
+}
+label {
+	font-weight: normal;
+}
+.siteOrder{
+	padding: 12px;
+	border: 1px solid #ff3c6a;
+	transition: all 1s ease;
+	text-transform: uppercase;
+	color: #ff3c6a;
+	font-weight: bold;
+}
+.siteOrder:hover {
+	color: #fff;
+	background-color: #ff3c6a;
+	border: 1px solid #ff3c6a;
+}
+.siteOrder:active {
+	color: #fff!important;
+	background-color: #ff3c6a!important;
+	border: 1px solid #ff3c6a!important;
+}
+.siteOrder:active {
+	box-shadow: none;
+}
+
+/*ScrollToTop*/
+.scrollToTop{
+	width:40px; 
+	height:40px;
+	position:fixed;
+	bottom:40px;
+	right:40px;
+	display:none;
+	animation-duration: 2s;
+	animation-delay: .1s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+
+}
+/*Order*/
+.siteOrderFixed{
+	width:50px; 
+	height:50px;
+	position:fixed;
+	top: 40px;
+	right:40px;
+	display:none;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+/*SLIDERCONTENT*/
+.sliderContent p {
+	margin-bottom: 15px;
+	padding: 15px;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	text-indent: 15px;
+	font-style: italic;
+	font-size: 15px;
+}
+.sliderContent .end {
+	background-color: #fff;
+	text-align: center;
+	text-indent: 0;
+}
+/*BXSLIDER*/
+.slider {
+	width: 400px;
+	margin: 0 auto;
+}
+.sliderContent>div{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.bx-wrapper .bx-viewport {
+	box-shadow: none;
+	border: 1px solid #e7e7e7;
+	border-radius: 4px;
+	left: 0;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	border: 1px solid #e7e7e7;
+	border-radius: 1px;
+	background-color: #fff;
+}
+.default-pager a.active {
+
+	border-radius: 1px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background-color: #ff3c6a;
+	border: none;
+}
+.sliderContent h3 {
+	margin-bottom: 30px;
+}
+
+/*FEEDBACK*/
+.feedImg {
+	background-image: url(../images/feed.png);
+	width: 140px;
+	height: 145px;
+	overflow: hidden;
+	margin: 0 auto;
+	border-radius: 4px;
+	background-color: #ff3c6a;
+}
+.feedImg1 {
+	background-position: 0 -200px;
+}
+.feedImg2 {
+	background-position: 200px -200px;
+}
+.feedImg3 {
+	background-position: 399px -200px;
+}
+.feedWraper {
+	margin-top: 15px;
+}
+.feedText {
+	width: 140px;
+	margin: 0 auto;
+	padding-top: 15px;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+.fa-coffee, .fa-user, .fa-headphones, .fa-lock {
+	color: #ff3c6a;
+	font-size: 15px;
+}
+
+/*FOOTER*/
+.footer p{
+	padding: 15px;
+	margin-bottom: 0;
+	font-style: italic;
+	color: #ff3c6a;
+}
+
+/*ANIMATE*/
+.hidden{
+	opacity:0;
+}
+.visible{
+	opacity:1;
+}

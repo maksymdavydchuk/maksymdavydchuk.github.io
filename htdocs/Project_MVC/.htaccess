@@ -1,0 +1,5 @@
+rewriteEngine on
+rewriteBase /project_MVC/
+rewriteCond %(REQUEST_FILENAME) !-f
+rewriteCond %(REQUEST_FILENAME) !-d
+rewriteRule ^(.*) index.php
